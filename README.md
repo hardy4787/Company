@@ -1,5 +1,5 @@
 <p><b>Compiled database scheme for the subject area (Company).</b></p>
-The schema database corresponds to the third normal form (3NF).
+<p>The schema database corresponds to the third normal form (3NF).</p>
 <b>Subject Area Description:</b>
 <ul>
 <li>The company employs employees performing projects (project data: name, creation date, open / closed status, closing date).</li>
