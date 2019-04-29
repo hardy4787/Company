@@ -1,13 +1,13 @@
 <p><b>Compiled database scheme for the subject area (Company).</b></p>
 <p>The schema database corresponds to the third normal form (3NF).</p>
-<b>Subject Area Description:</b>
+<p><b>Subject Area Description:</b></p>
 <ul>
 <li>The company employs employees performing projects (project data: name, creation date, open / closed status, closing date).</li>
 <li>An employee may carry out several projects, his position may differ on different projects.</li>
 <li>Tasks on the project are given to the employee with the indication of the deadline. The task can be in the status: Open, completed, needs some work, accepted (closed), indicating the date of the status and the status of the employee.</li>
 </ul>
 
-<b>The following queries for sampling / changing data are written:</b>
+<p><b>The following queries for sampling / changing data are written:</b></p>
 <ol>
   <li>
 Get a list of all company positions with the number of employees in each of them.</li>
